@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "Dictionary",
+	"category" : "Configurator",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"parent"
+	],
+	"name" : "ConfigurationSection",
+	"type" : "normal"
+}
