@@ -2,11 +2,13 @@
 	"commentStamp" : "",
 	"super" : "Object",
 	"category" : "Configurator",
-	"classinstvars" : [ ],
+	"classinstvars" : [
+		"default"
+	],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"section"
+		"root"
 	],
 	"name" : "Configuration",
 	"type" : "normal"

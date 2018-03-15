@@ -4,4 +4,4 @@ readFileNamed: aString
 	file := aString asFileReference.
 	reader := self readerForExtension: file extension.
 	^ self new 
-		section: (reader value: file readStream)
+		root: (reader value: file readStream)

@@ -1,3 +1,3 @@
-accessing
+as yet unclassified
 section: aString do: aBlock
-	^ section section: aString do: aBlock
+	root section: aString do: aBlock
