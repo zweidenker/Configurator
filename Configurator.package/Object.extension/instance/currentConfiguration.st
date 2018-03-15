@@ -1,3 +1,3 @@
-*configurator
+*Configurator
 currentConfiguration
 	^ CurrentConfiguration value

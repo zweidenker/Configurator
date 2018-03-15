@@ -1,4 +1,4 @@
-*configurator
+*Configurator
 configurationSend: selector to: anObject
 	anObject 
 		perform: selector asMutator 

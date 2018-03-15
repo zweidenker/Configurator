@@ -1,7 +1,5 @@
 reflective operations
 doesNotUnderstand: message	
-	| key |
-	key := message selector.
-	key isUnary
-		ifTrue: [ ^ self at: key ].
+	message selector isUnary
+		ifTrue: [ ^ self at: message selector ].
 	^ super doesNotUnderstand: message
