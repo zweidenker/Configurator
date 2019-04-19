@@ -2,14 +2,13 @@
 	"commentStamp" : "",
 	"super" : "Object",
 	"category" : "Configurator",
-	"classinstvars" : [
-		"default"
-	],
+	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"rootSection"
+		"group",
+		"action"
 	],
-	"name" : "Configuration",
+	"name" : "ConfigurationStep",
 	"type" : "normal"
 }
