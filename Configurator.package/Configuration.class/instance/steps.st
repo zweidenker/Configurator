@@ -1,6 +1,6 @@
 private
 steps 
 	^ self pragmas collect: [ :pragma | 
-		pragma method
+		(pragma method
 			valueWithReceiver: nil 
-			arguments: {  } ]
+			arguments: {  }) asConfigurationStep ]
