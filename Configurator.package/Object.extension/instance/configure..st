@@ -2,4 +2,4 @@
 configure: aSymbol
 	self 
 		perform: aSymbol asMutator 
-		with: (self currentConfiguration perform: aSymbol)
+		with: (CurrentConfiguration value perform: aSymbol)

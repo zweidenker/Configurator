@@ -8,7 +8,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"rootSection"
+		"rootSection",
+		"steps"
 	],
 	"name" : "Configuration",
 	"type" : "normal"

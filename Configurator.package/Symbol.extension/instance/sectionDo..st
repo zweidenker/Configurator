@@ -1,5 +1,5 @@
 *Configurator
 sectionDo: aBlock
 	self 
-		sectionIn: self currentConfiguration  
+		sectionIn: CurrentConfiguration value  
 		do: aBlock

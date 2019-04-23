@@ -1,3 +1,3 @@
-private
-applyPragmas
+actions
+apply
 	self steps do: [ :step | self executeStep: step ]

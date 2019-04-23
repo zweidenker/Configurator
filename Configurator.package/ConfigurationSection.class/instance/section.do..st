@@ -1,3 +1,3 @@
-as yet unclassified
+sections
 section: aString do: aBlock
-	(self at: aString) do: aBlock
+	self with: aString do: aBlock

@@ -1,3 +1,3 @@
-as yet unclassified
+sections
 section: aString do: aBlock
-	rootSection section: aString do: aBlock
+	rootSection with: aString do: aBlock

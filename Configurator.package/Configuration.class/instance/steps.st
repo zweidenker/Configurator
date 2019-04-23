@@ -1,6 +1,4 @@
-private
+accessing
 steps 
-	^ self pragmas collect: [ :pragma | 
-		(pragma method
-			valueWithReceiver: nil 
-			arguments: {  }) asConfigurationStep ]
+	^ steps ifNil: [ 
+		steps := self buildSteps ]

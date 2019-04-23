@@ -1,4 +1,4 @@
-as yet unclassified
+sections
 do: aBlock
 	CurrentConfiguration 
 		value: self
