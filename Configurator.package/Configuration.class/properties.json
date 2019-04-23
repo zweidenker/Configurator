@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "NorbertHartl 4/23/2019 16:56",
 	"super" : "Object",
 	"category" : "Configurator",
 	"classinstvars" : [
@@ -8,7 +8,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"root"
+		"rootSection",
+		"steps"
 	],
 	"name" : "Configuration",
 	"type" : "normal"

@@ -1,13 +1,14 @@
 {
-	"commentStamp" : "NorbertHartl 4/23/2019 16:57",
-	"super" : "Dictionary",
+	"commentStamp" : "NorbertHartl 4/23/2019 16:59",
+	"super" : "Object",
 	"category" : "Configurator",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"parent"
+		"group",
+		"action"
 	],
-	"name" : "ConfigurationSection",
+	"name" : "ConfigurationStep",
 	"type" : "normal"
 }

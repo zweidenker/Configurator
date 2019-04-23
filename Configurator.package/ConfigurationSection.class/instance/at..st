@@ -1,3 +1,6 @@
 accessing
 at: key	
-	^ self at: key ifAbsent: [ nil ]
+
+	^ self 
+		at: key 
+		ifAbsent: [ self extendedAt: key ].

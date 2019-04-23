@@ -1,4 +1,4 @@
 as yet unclassified
 readJSONFrom: aStream 
-	^ self new
-		root: (ConfigurationSection readFrom: aStream)
+	^ self new 
+		rootSection: (ConfigurationSection readFrom: aStream)

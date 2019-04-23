@@ -1,3 +1,3 @@
 *Configurator
 asConfigurationValue
-	^ self currentConfiguration perform: self
+	^ CurrentConfiguration value perform: self
